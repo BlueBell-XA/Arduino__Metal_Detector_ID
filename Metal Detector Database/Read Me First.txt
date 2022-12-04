@@ -1,0 +1,10 @@
+- Dont rename the files from their original name. This will prevent the program from finding the database files.
+- Only change the values within the white columns (B-E for 3khz coil, G-J for 7.5khz coil, and L-O for 18.75khz coil).
+- Dont add or remove any columns. If more than 4 items are required, decide on the 4 most important items to keep.
+- Although the character limit for each cell in Excel is very large, the display is only limited to 16 characters.
+- If there are 3-4 items for a single value, the 2nd item (2nd cell) will be limited to 14 characters due to the '->' being displayed on the screen.
+- Any additional changes will require a change to the firmware (eg, more columns, different databases etc).
+
+- If in doubt, or to be safe, make a copy of a database file and rename it to create a backup before editing the desired file.
+	e.g. duplicate the file "vanquish_540.xlsx". Rename the duplicate to "vanquish_540(backup).xlsx". Edit the original "vanquish_540.xlsx" file and test.
+	If everything is fine post testing, it is safe to delete the duplicate/backup. Otherwise if something goes wrong, delete the original, and remove the text "(backup)" from duplicate file name to restore all changes.
